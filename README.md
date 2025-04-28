@@ -10,8 +10,23 @@ There also needs to be API requests that can verify licenses stored in AWS.
 - [Confluence for requirments](https://menditect.atlassian.net/wiki/spaces/Persist/pages/433192961/License+Module)
 - [Nestjs for API Framework](https://docs.nestjs.com/)
 - [Swagger Cli from Nestjs](https://docs.nestjs.com/openapi/cli-plugin#overview) offers API Documentation fo rfuture users
-- [Webpack](https://docs.nestjs.com/openapi/cli-plugin#overview) as application bundler
+- [rspack](https://rspack.dev/) as application bundler
 - [Dynamo-db](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) as the database for storing projects
 - [dynamodb-toolbox](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) as the request building code for dynamodb
 - [AWS CDK V2](https://docs.aws.amazon.com/cdk/v2/guide/home.html) for building and hsting through AWS
-- [Jest](https://jestjs.io/docs/getting-started) as the testing framework
+- [vitest](https://vitest.dev/guide/) as the testing framework
+
+# Visual Studio
+# # Visual suggested studio extensions
+- Docker
+
+# Project Local setup
+
+# # Run local AWS compponents
+Enter terminal and go to projet location.
+
+1. 
+    docker compose up
+
+# Tips
+F-Secure blocked access to folders to node. I fixed this by getting  notifications from F-secure whenever it blocks anything, and when that happens changing the access by clicking on said notification.
